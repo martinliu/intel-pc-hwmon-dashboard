@@ -4,6 +4,8 @@
 
 [English README](README.md)
 
+![Dashboard Preview](full-page.png)
+
 ## 项目内容
 
 - `grafana-dashboard.json`：可直接导入的 Grafana 仪表盘。

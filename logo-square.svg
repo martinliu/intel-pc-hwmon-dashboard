@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Intel PC Server Hardware Monitoring">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b5fff"/>
+      <stop offset="100%" stop-color="#19c37d"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#ff2d55"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="600" height="600" rx="48" fill="#0b0f1a"/>
+
+  <!-- Server tile -->
+  <rect x="80" y="80" width="220" height="220" rx="28" fill="url(#g)"/>
+  <rect x="116" y="130" width="148" height="12" rx="6" fill="#0b0f1a"/>
+  <rect x="116" y="162" width="148" height="12" rx="6" fill="#0b0f1a"/>
+  <rect x="116" y="194" width="148" height="12" rx="6" fill="#0b0f1a"/>
+  <circle cx="148" cy="238" r="10" fill="#0b0f1a"/>
+  <circle cx="232" cy="238" r="10" fill="#0b0f1a"/>
+
+  <!-- Thermometer -->
+  <rect x="340" y="108" width="64" height="280" rx="32" fill="#1f2937"/>
+  <rect x="362" y="132" width="20" height="184" rx="10" fill="url(#t)"/>
+  <circle cx="372" cy="360" r="34" fill="url(#t)"/>
+  <circle cx="372" cy="360" r="14" fill="#0b0f1a" opacity="0.2"/>
+
+  <!-- Text -->
+  <text x="80" y="420" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#cbd5e1">Intel PC Server</text>
+  <text x="80" y="470" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#f8fafc" font-weight="700">Hardware Monitoring</text>
+  <text x="80" y="512" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#94a3b8">node-exporter • hwmon</text>
+</svg>

@@ -1,8 +1,12 @@
 # Intel PC Server Hardware Monitoring (node-exporter hwmon)
 
+![logo](logo.svg)
+
 A Prometheus + Grafana dashboard for hardware sensors exposed by `lm-sensors` and `node-exporter`'s `hwmon` collector. The dashboard is designed to be reusable across Intel PC servers (and similar platforms) while keeping labels human-readable and actionable.
 
 [简体中文 README](README.zh-CN.md)
+
+![Dashboard Preview](full-page.png)
 
 ## What this project contains
 
