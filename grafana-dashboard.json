@@ -1191,7 +1191,7 @@
     "node-exporter",
     "hwmon",
     "intel",
-    "server",
+    "pc-server",
     "pve",
     "lm-sensors"
   ],
